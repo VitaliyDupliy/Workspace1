@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename local variable &apos;i&apos; in &apos;lesson19.Sorting.sortArray(...)&apos; to &apos;j&apos;&#x0D;&#x0A;- Original project: &apos;TregulovOCO&apos;&#x0D;&#x0A;- Original element: &apos;lesson19.Sorting.sortArray(int[]).i&apos;&#x0D;&#x0A;- Renamed element: &apos;i&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;i&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;lesson19{Sorting.java[Sorting~sortArray~\[I@i!150!158!154!154!I!0!false" name="j" references="true" stamp="1706472679546" version="1.0"/>
-</session>

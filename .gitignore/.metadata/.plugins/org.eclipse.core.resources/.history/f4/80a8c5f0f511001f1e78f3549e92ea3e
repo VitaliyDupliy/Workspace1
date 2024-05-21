@@ -1,0 +1,5 @@
+package lesson40.test1;
+
+public class B extends A {
+
+}

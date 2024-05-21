@@ -1,0 +1,11 @@
+package lesson40.test27;
+
+public class Test {
+
+	public static void main(String[] args) {
+		A test1 = new B();
+		System.out.println(test1.a + " " + test1.returnA());
+
+	}
+
+}

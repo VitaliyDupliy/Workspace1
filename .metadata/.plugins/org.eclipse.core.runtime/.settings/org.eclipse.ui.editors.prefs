@@ -1,0 +1,3 @@
+AbstractTextEditor.Color.SelectionForeground=0,255,0
+AbstractTextEditor.Color.SelectionForeground.SystemDefault=false
+eclipse.preferences.version=1

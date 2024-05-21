@@ -1,0 +1,11 @@
+package lesson34.homework;
+
+public class TestEmployee {
+	
+	public void printEmployee(Employee e){
+		System.out.println("Emplyee name: " + e.name + "Department: " + e.department + "Salary: " + e.salary);
+	}
+	
+	
+
+}

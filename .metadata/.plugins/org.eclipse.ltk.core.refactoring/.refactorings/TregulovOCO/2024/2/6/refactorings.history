@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;lenghtNewArray&apos; in &apos;lesson20.test.abc(...)&apos; to &apos;lengthNewArray&apos;&#x0D;&#x0A;- Original project: &apos;TregulovOCO&apos;&#x0D;&#x0A;- Original element: &apos;lesson20.test.abc(String[]...).lenghtNewArray&apos;&#x0D;&#x0A;- Renamed element: &apos;lenghtNewArray&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;lenghtNewArray&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;lesson20{test.java[test~abc~\[\[QString;@lenghtNewArray!132!154!136!149!I!0!false" name="lengthNewArray" references="true" stamp="1707670551406" version="1.0"/>
+</session>

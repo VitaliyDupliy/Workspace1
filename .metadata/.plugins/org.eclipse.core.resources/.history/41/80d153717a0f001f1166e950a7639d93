@@ -1,0 +1,53 @@
+package lesson34.lambdas2;
+
+import java.util.ArrayList;
+import java.util.function.Consumer;
+import java.util.function.Supplier;
+
+public class Test5 {
+
+	public static ArrayList<Car> createThreeCars(Supplier<Car> carSupplier) {
+
+		ArrayList<Car> list = new ArrayList<>();
+		for (int i = 0; i < 3; i++) {
+
+			list.add(carSupplier.get());
+		}
+
+		return list;
+	}
+
+	public static void changeCar(Car car, Consumer<Car> c) {
+		c.accept(car);
+	}
+
+	public static void main(String[] args) {
+
+		ArrayList<Car> ourCars = createThreeCars(() -> new Car("Nissan Tilda", "Silver", 1.6));
+		for (Car c : ourCars)
+			System.out.println(c);
+
+//		changeCar(ourCars.get(0), car -> {
+//			car.model = "Ford Kuga";
+//			car.color = "Dark Blue";
+//			car.engine = 2.5;
+//		});
+		
+		Consumer<Car> c = (auto) -> {
+			auto.model = "Ford Kuga";
+			auto.color = "Dark Blue";
+			auto.engine = 2.5;
+		};	
+		c.accept(ourCars.get(0));
+		
+		
+System.out.println("*************************************************");
+		
+		for (Car car : ourCars)
+			System.out.println(car);
+		}
+		
+		
+	}
+
+
